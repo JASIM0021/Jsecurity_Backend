@@ -1,0 +1,35 @@
+{
+  "development": {
+    "username": "jasim0021",
+    "password": "Yx5pkQ8S3kEl4TlsdLkqtvNSUS3324rn",
+    "database": "jsecurity",
+    "port":5432,
+    "host": "dpg-ch5p9gorddl7alcmaung-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require":true
+      }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+       "username": "jasim0021",
+    "password": "Yx5pkQ8S3kEl4TlsdLkqtvNSUS3324rn",
+    "database": "jsecurity",
+    "port":5432,
+    "host": "dpg-ch5p9gorddl7alcmaung-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require":true
+      }
+    }
+  }
+}
